@@ -24,8 +24,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
     "production": "react-scripts build && serve -s build -l 1234"
   },
+  "homepage": "https://penicillin0.github.io/skyway-demo/",
   "eslintConfig": {
     "extends": "react-app"
   },
